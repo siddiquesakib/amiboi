@@ -3,7 +3,7 @@
 @layer base {
   :root {
     /* BookWorm Color Palette */
-    --color-lavender: #E8E2E8;
+    --color-lavender: #F3EEEA;
     --color-cream: #E8E2D5;
     --color-sage: #ADA594;
     --color-brown: #615550;
@@ -39,7 +39,7 @@
 
   @theme inline {
     /* Custom Tailwind Colors */
-    --color-lavender: #E8E2E8;
+    --color-lavender: #F3EEEA;
     --color-cream: #E8E2D5;
     --color-sage: #ADA594;
     --color-brown: #615550;

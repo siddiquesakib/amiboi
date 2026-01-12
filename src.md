@@ -44,80 +44,80 @@ bookworm
 │   │   ├── api
 │   │   │   ├── auth
 │   │   │   │   ├── register
-│   │   │   │   │   └── route.js
+│   │   │   │   │   └── route.jsx
 │   │   │   │   ├── login
-│   │   │   │   │   └── route.js
+│   │   │   │   │   └── route.jsx
 │   │   │   │   └── logout
-│   │   │   │       └── route.js
+│   │   │   │       └── route.jsx
 │   │   │   ├── books
-│   │   │   │   ├── route.js
+│   │   │   │   ├── route.jsx
 │   │   │   │   └── [id]
-│   │   │   │       └── route.js
+│   │   │   │       └── route.jsx
 │   │   │   ├── genres
-│   │   │   │   └── route.js
+│   │   │   │   └── route.jsx
 │   │   │   ├── reviews
-│   │   │   │   └── route.js
+│   │   │   │   └── route.jsx
 │   │   │   ├── shelves
-│   │   │   │   └── route.js
+│   │   │   │   └── route.jsx
 │   │   │   ├── users
-│   │   │   │   └── route.js
+│   │   │   │   └── route.jsx
 │   │   │   └── tutorials
-│   │   │       └── route.js
+│   │   │       └── route.jsx
 │   │   │
-│   │   ├── layout.js
+│   │   ├── layout.jsx
 │   │   ├── page.jsx (redirect logic)
-│   │   └── not-found.js
+│   │   └── not-found.jsx
 │   │
 │   ├── components
 │   │   ├── shared
-│   │   │   ├── Navbar.js
-│   │   │   ├── Footer.js
-│   │   │   ├── LoadingSpinner.js
-│   │   │   └── ErrorMessage.js
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── LoadingSpinner.jsx
+│   │   │   └── ErrorMessage.jsx
 │   │   │
 │   │   ├── user
-│   │   │   ├── BookCard.js
-│   │   │   ├── BookGrid.js
-│   │   │   ├── ReviewForm.js
-│   │   │   ├── ShelfManager.js
-│   │   │   ├── ProgressTracker.js
-│   │   │   └── RecommendationCarousel.js
+│   │   │   ├── BookCard.jsx
+│   │   │   ├── BookGrid.jsx
+│   │   │   ├── ReviewForm.jsx
+│   │   │   ├── ShelfManager.jsx
+│   │   │   ├── ProgressTracker.jsx
+│   │   │   └── RecommendationCarousel.jsx
 │   │   │
 │   │   ├── admin
-│   │   │   ├── BookForm.js
-│   │   │   ├── GenreForm.js
-│   │   │   ├── UserTable.js
-│   │   │   ├── ReviewModerationTable.js
-│   │   │   └── StatsCard.js
+│   │   │   ├── BookForm.jsx
+│   │   │   ├── GenreForm.jsx
+│   │   │   ├── UserTable.jsx
+│   │   │   ├── ReviewModerationTable.jsx
+│   │   │   └── StatsCard.jsx
 │   │   │
 │   │   └── ui
-│   │       ├── Button.js
-│   │       ├── Card.js
-│   │       ├── Modal.js
-│   │       ├── Input.js
-│   │       └── Select.js
+│   │       ├── Button.jsx
+│   │       ├── Card.jsx
+│   │       ├── Modal.jsx
+│   │       ├── Input.jsx
+│   │       └── Select.jsx
 │   │
 │   ├── lib
-│   │   ├── mongodb.js
-│   │   ├── auth.js
-│   │   └── utils.js
+│   │   ├── mongodb.jsx
+│   │   ├── auth.jsx
+│   │   └── utils.jsx
 │   │
 │   ├── models
-│   │   ├── User.js
-│   │   ├── Book.js
-│   │   ├── Genre.js
-│   │   ├── Review.js
-│   │   ├── Shelf.js
-│   │   └── Tutorial.js
+│   │   ├── User.jsx
+│   │   ├── Book.jsx
+│   │   ├── Genre.jsx
+│   │   ├── Review.jsx
+│   │   ├── Shelf.jsx
+│   │   └── Tutorial.jsx
 │   │
-│   ├── middleware.js (route protection)
+│   ├── middleware.jsx (route protection)
 │   │
 │   └── styles
 │       └── globals.css
 │
 ├── .env.local
 ├── .gitignore
-├── next.config.js
-├── package.json
-├── jsconfig.json
+├── next.config.jsx
+├── package.jsxon
+├── jsxconfig.jsxon
 └── README.md
